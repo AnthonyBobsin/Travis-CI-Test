@@ -6,6 +6,7 @@ deploy:
   access_key_id: AWS_ACCESS_KEY_ID
   secret_access_key: AWS_SECRET_ACCESS_KEY
   bucket: cps847group04section21
+  region: us-east-2
   skip_cleanup: true
   acl: public_read
   upload-dir: assignment02
