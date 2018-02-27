@@ -1,4 +1,4 @@
-require_relative 'html_generator'
+require_relative '../lib/html_generator'
 
 require 'rspec'
 require 'simplecov'
