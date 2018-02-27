@@ -9,4 +9,5 @@ deploy:
   region: us-east-2
   skip_cleanup: true
   acl: public_read
+  local_dir: build
   upload-dir: assignment02
