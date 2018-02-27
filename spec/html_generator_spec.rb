@@ -1,14 +1,5 @@
+require_relative 'helper'
 require_relative '../lib/html_generator'
-
-require 'rspec'
-require 'simplecov'
-
-SimpleCov.start
-
-if ENV['CI'] == 'true'
-  require 'codecov'
-  SimpleCov.formatter = SimpleCov::Formatter::Codecov
-end
 
 describe 'Test File Generation' do
   subject { HtmlGenerator } 
