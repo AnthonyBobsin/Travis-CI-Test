@@ -1,0 +1,2 @@
+language: ruby
+script: rspec html_generator_spec.rb
