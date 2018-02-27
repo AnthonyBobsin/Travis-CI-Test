@@ -1,2 +1,2 @@
 language: ruby
-script: rspec html_generator_spec.rb
+script: bundle exec rspec html_generator_spec.rb
