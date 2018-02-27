@@ -11,7 +11,7 @@ class HtmlGenerator
 
   class << self
     def generate_file
-      File.open('index.html', 'w') do |f|
+      File.open('build/index.html', 'w') do |f|
         f.write(HTML_TEMPLATE)
       end
     end
